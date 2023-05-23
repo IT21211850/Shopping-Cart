@@ -1,0 +1,91 @@
+.WholeWishPage{
+    display: flex;
+    padding: 30px;
+  
+  }
+  /* shopping cart */
+  .Wish{
+    border-radius: 20px;
+    border: solid 2px;
+    width: 100%;
+  }
+  /* Styles for the title */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styles for the item list */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .rbtn {
+    border: black 2px;
+    background-color: #000000;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 1250px;
+    margin-top: 0px;
+  }
+  
+  /* Styles for the total price */
+  p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Styles for the add item button */
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(163, 163, 167);
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: solid black 2px;
+    border-radius: 10px;
+    
+  }
+  
+  
+  
+  /*Item*/
+  .WholeItem{
+    margin-left: 18px;
+    width: 96%;
+    margin-top: 20px;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 15px;
+    background-color: #e7e7e7;
+  
+  }
+  
+  .Item{
+    width:0;
+    display: flex;
+  }
+  .ItemDetails{
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 800px;
+    margin-left: 50px;
+  }
+  
+  /*table*/
+  .td{
+      text-align: left;
+  }
+  
